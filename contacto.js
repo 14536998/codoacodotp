@@ -5,8 +5,8 @@ async function obtenerPosicion(){
     const data = await response.json()
     console.log(data);
 
-    document.getElementById("fecha").innerHTML = data.fecha
-    document.getElementById("muerte").innerHTML = data["muerte"]
+    document.getElementById("fecha").innerHTML = data.date
+    document.getElementById("muerte").innerHTML = data["states"]
 
 }
 
